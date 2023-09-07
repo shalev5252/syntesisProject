@@ -26,10 +26,13 @@
                 example:
 <img width="948" alt="image" src="https://github.com/shalev5252/syntesisProject/assets/74376280/590c1ddc-28d8-4a3f-89ab-5410866b600f">
 
-
+     * For loops - the for loop is a simple multiplication function, it gets an integer n value (not a hole) and multiplies the code inside its do caluse n times
        
-     * For loops
-     * Modified arithmetic operations such as pow and mod
+     * Modified arithmetic operations such as pow and mod - the project supports more arithmetic operation in order to give  maximal experience,
+                                                            **for the pow operation the exponent cannot be a hole and has to be integer**, the power operation allows to implement polynoms easily.
+       example:
+       <img width="960" alt="image" src="https://github.com/shalev5252/syntesisProject/assets/74376280/03261260-518e-4e64-a7a9-3a77fd015fd0">
+                                                
       
 #### Inputs and outputs:
 * In order to use the program you have to insert the designated example count, and unwinding size for  while loops in the program.
