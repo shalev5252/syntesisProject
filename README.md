@@ -4,14 +4,15 @@
 
 #### Usage:
 
-<img width="957" alt="image" src="https://github.com/shalev5252/syntesisProject/assets/74376280/21f57006-87db-4cf5-8356-ffeb3b50785f">
+<img width="960" alt="image" src="https://github.com/shalev5252/syntesisProject/assets/74376280/657e412d-494f-447d-a406-04f2294e185c">
+
 
 #### Language specifications:
 * the project supports an expanded whore language that contains:
      * Strings - the project supports the inclusion of strings, a string constant value should be of the form: '<value>' , the program supports conctation of strings via                     the operator + and can find hole that contains a string value and will be inserted as ??? in the program.
                  String supports the @ operator too , for (a @ 2) the operator will return the character at index 2 from string a.
                  example:
-       <img width="958" alt="image" src="https://github.com/shalev5252/syntesisProject/assets/74376280/da63a6d0-1cf8-4624-974a-c6b2603d01a3">
+<img width="958" alt="image" src="https://github.com/shalev5252/syntesisProject/assets/74376280/9d942208-81f8-44ce-8e47-4e1b4a7c3163">
 
        
      * Boolean logical operations (add, or, not) - used mostly for more difficult constraints in the conditions in while loop and asserts.
