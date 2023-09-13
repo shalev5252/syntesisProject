@@ -17,20 +17,20 @@
        
      * Boolean logical operations (add, or, not) - used mostly for more difficult constraints in the conditions in while loop and asserts.
   
-     * Arrays - the program supports array by a limited capacity. **All the arrays in the program are of fixed size, 50 elements**,
-                array can be declared by the [<value1>,<value2>...] or [] or [<value1>], the values has to be numerical values or numerical value hole and each empty aray                   will be initialized to be zero array.
+     * Arrays - the program supports array by a limited capacity. 
+                array can be declared by the [<value1>,<value2>...] or [] or [<value1>], the values has to be numerical                      values or numerical value hole and each empty aray                   will be initialized to be zero array.
                 Arrays supports the followind functions:
-                * store - the function stores a value y in array cell x : a:= a store 1 1 for example will store the value 1 in index 1 of the array a
-                * select - the function gets the value at index x of the array : b:= a select 2 for example will return the value of the array in index 2
-                           **since ArrayRef and Arrays in z3 are maps from index to value and they are infinite for all integer numbers there is no guarntee for the values                               the function will return for numbers that are larger than 49 and smaller than 0**
-                * equals - the function will return boolean value if the arrays have the exact same mapping (for indexes 0-49)
+                * store - the function stores a value y in array cell x : a:= a store 1 1 for example will store the value 1                           in index 1 of the array a
+                * select - the function gets the value at index x of the array : b:= a select 2 for example will return the                             value of the array in index 2
+
                 example:
-<img width="948" alt="image" src="https://github.com/shalev5252/syntesisProject/assets/74376280/590c1ddc-28d8-4a3f-89ab-5410866b600f">
+<img width="960" alt="image" src="https://github.com/shalev5252/syntesisProject/assets/74376280/3b0da209-e9ad-49dc-9279-a628a748bd82">
+
 
      * For loops - the for loop is a simple multiplication function, it gets an integer n value (not a hole) and multiplies the code inside its do caluse n times
        
      * Modified arithmetic operations such as pow and mod - the project supports more arithmetic operation in order to give  maximal experience,
-                                                            **for the pow operation the exponent cannot be a hole and has to be integer**, the power operation allows to implement polynoms easily.
+                                                            **for the pow operation the exponent cannot be a hole and has to be an integer or a value that has no dependency on holes**, the power operation allows to implement polynoms easily.
        example:
        <img width="960" alt="image" src="https://github.com/shalev5252/syntesisProject/assets/74376280/03261260-518e-4e64-a7a9-3a77fd015fd0">
                                                 
@@ -46,8 +46,11 @@ the proggram has unrolling feature fir handeling while loops for the user conten
 
 in the PBE the types of vairables should be consistent
 and array/string variables should be declared by an input to at least one empty example 
-<img width="950" alt="image" src="https://github.com/shalev5252/syntesisProject/assets/74376280/976275e2-7ddb-4a4f-8ec5-ce0606109c91">
-<img width="954" alt="image" src="https://github.com/shalev5252/syntesisProject/assets/74376280/ddfcbe4a-c122-45b7-b09d-b2ae9ddbae24">
+<img width="960" alt="image" src="https://github.com/shalev5252/syntesisProject/assets/74376280/c3b1ba25-247c-455c-859e-410122dcc2e0">
+
+false example, the Q condition does not apply -> the program will return a counter example
+<img width="959" alt="image" src="https://github.com/shalev5252/syntesisProject/assets/74376280/336faf60-d819-4556-8af2-8660a007c429">
+
 
 #### Code examples:
 
