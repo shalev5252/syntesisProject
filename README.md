@@ -56,7 +56,9 @@ the aplication ui service is in the file syntApp.py. running it in the cmd line 
 python syntApp.py
 
 
+#### User Experience flow:
+![user experience flow](https://github.com/shalev5252/syntesisProject/assets/74376280/b7a220a9-7661-4005-b01f-f7ca8e9a8d13)
 
 #### Project calculation flow:
 
-
+![calc_flow](https://github.com/shalev5252/syntesisProject/assets/74376280/1128fc8c-95b4-48cd-941b-e2c7e67e98e6)
