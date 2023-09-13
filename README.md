@@ -6,7 +6,6 @@
 
 <img width="960" alt="image" src="https://github.com/shalev5252/syntesisProject/assets/74376280/657e412d-494f-447d-a406-04f2294e185c">
 
-
 #### Language specifications:
 * the project supports an expanded whore language that contains:
      * Strings - the project supports the inclusion of strings, a string constant value should be of the form: '<value>' , the program supports conctation of strings via                     the operator + and can find hole that contains a string value and will be inserted as ??? in the program.
@@ -51,6 +50,10 @@ and array/string variables should be declared by an input to at least one empty 
 
 false example, the Q condition does not apply -> the program will return a counter example:
 <img width="959" alt="image" src="https://github.com/shalev5252/syntesisProject/assets/74376280/beb38d59-b5bb-4a6c-81ee-cfaf6b284608">
+
+#### Open the app:
+the aplication ui service is in the file syntApp.py. running it in the cmd line will open the project by using the command:
+python syntApp.py
 
 
 
