@@ -2,7 +2,7 @@
 
 #### requirements:
 z3 solver- can be installed by running the command: **pip install z3-solver** in the terminal
-
+tkinter python library for GUI  by running the command: **pip install tk** in the terminal
 #### Project description:
 
 #### Usage:
