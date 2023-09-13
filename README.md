@@ -57,6 +57,6 @@ python syntApp.py
 
 
 
-#### Code examples:
+#### Project calculation flow:
 
 
