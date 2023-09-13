@@ -12,6 +12,7 @@
      * Strings - the project supports the inclusion of strings, a string constant value should be of the form: '<value>' , the program supports conctation of strings via                     the operator + and can find hole that contains a string value and will be inserted as ??? in the program.
                  String supports the @ operator too , for (a @ 2) the operator will return the character at index 2 from string a.
                  example:
+       
 <img width="958" alt="image" src="https://github.com/shalev5252/syntesisProject/assets/74376280/9d942208-81f8-44ce-8e47-4e1b4a7c3163">
 
        
@@ -48,8 +49,9 @@ in the PBE the types of vairables should be consistent
 and array/string variables should be declared by an input to at least one empty example 
 <img width="960" alt="image" src="https://github.com/shalev5252/syntesisProject/assets/74376280/c3b1ba25-247c-455c-859e-410122dcc2e0">
 
-false example, the Q condition does not apply -> the program will return a counter example
-<img width="959" alt="image" src="https://github.com/shalev5252/syntesisProject/assets/74376280/336faf60-d819-4556-8af2-8660a007c429">
+false example, the Q condition does not apply -> the program will return a counter example:
+<img width="959" alt="image" src="https://github.com/shalev5252/syntesisProject/assets/74376280/beb38d59-b5bb-4a6c-81ee-cfaf6b284608">
+
 
 
 #### Code examples:
