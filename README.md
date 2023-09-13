@@ -10,7 +10,7 @@ z3 solver- can be installed by running the command: **pip install z3-solver** in
 <img width="960" alt="image" src="https://github.com/shalev5252/syntesisProject/assets/74376280/657e412d-494f-447d-a406-04f2294e185c">
 
 #### Language specifications:
-* the project supports an expanded whore language that contains:
+* the project supports an expanded hoare language that contains:
      * Strings - the project supports the inclusion of strings, a string constant value should be of the form: '<value>' , the program supports conctation of strings via                     the operator + and can find hole that contains a string value and will be inserted as ??? in the program.
                  String supports the @ operator too , for (a @ 2) the operator will return the character at index 2 from string a.
                  example:
