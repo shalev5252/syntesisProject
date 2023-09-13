@@ -1,5 +1,8 @@
 # SyntesisProject
 
+#### requirements:
+z3 solver- can be installed by running the command: **pip install z3-solver** in the terminal
+
 #### Project description:
 
 #### Usage:
