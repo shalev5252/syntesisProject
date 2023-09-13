@@ -18,7 +18,7 @@ tkinter python library for GUI  by running the command: **pip install tk** in th
 <img width="958" alt="image" src="https://github.com/shalev5252/syntesisProject/assets/74376280/9d942208-81f8-44ce-8e47-4e1b4a7c3163">
 
        
-     * Boolean logical operations (add, or, not) - used mostly for more difficult constraints in the conditions in while loop and asserts.
+     * Boolean logical operations (add, or, not, ->) - used mostly for more difficult constraints in the conditions in while loop and asserts.
   
      * Arrays - the program supports array by a limited capacity. 
                 array can be declared by the [<value1>,<value2>...] or [] or [<value1>], the values has to be numerical                      values or numerical value hole and each empty aray                   will be initialized to be zero array.
