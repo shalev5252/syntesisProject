@@ -11,8 +11,12 @@ tkinter python library for GUI  by running the command: **pip install tk** in th
 <img width="960" alt="image" src="https://github.com/shalev5252/syntesisProject/assets/74376280/657e412d-494f-447d-a406-04f2294e185c">
 
 #### Language specifications:
-##### features
+##### features:
 * the project supports an expanded hoare language that contains:
+     * Integer Holes - the project supports a sketch like hole system for Integers (inserted to the code as ??) and of strings (inserted to the code as ???).
+                       the project will find a fill to the holes by using CEGIS method of synthesis and with asserts inserted by a user.
+     * Asserts - a user can insert assertion to the code that restrict the program to follow certain conditions.
+                
      * Strings - the project supports the inclusion of strings, a string constant value should be of the form: '<value>' , the program supports conctation of strings via                     the operator + and can find hole that contains a string value and will be inserted as ??? in the program.
                  String supports the @ operator too , for (a @ 2) the operator will return the character at index 2 from string a.
                  example:
@@ -20,7 +24,7 @@ tkinter python library for GUI  by running the command: **pip install tk** in th
 <img width="958" alt="image" src="https://github.com/shalev5252/syntesisProject/assets/74376280/9d942208-81f8-44ce-8e47-4e1b4a7c3163">
 
        
-     * Boolean logical operations (add, or, not, ->) - used mostly for more difficult constraints in the conditions in while loop and asserts.
+     * Boolean logical operations (add, or, not, ->) - used mostly for more difficult constraints in the conditions in while loop and asserts, in those condition the user can enter the logical keywords true , false if needed.
   
      * Arrays - the program supports array by a limited capacity. 
                 array can be declared by the [<value1>,<value2>...] or [] or [<value1>], the values has to be numerical                      values or numerical value hole and each empty aray                   will be initialized to be zero array.
