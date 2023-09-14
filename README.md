@@ -15,6 +15,7 @@ tkinter python library for GUI  by running the command: **pip install tk** in th
 * the project supports an expanded hoare language that contains:
      * Integer Holes - the project supports a sketch like hole system for Integers (inserted to the code as ??) and of strings (inserted to the code as ???).
                        the project will find a fill to the holes by using CEGIS method of synthesis and with asserts inserted by a user.
+       
      * Asserts - a user can insert assertion to the code that restrict the program to follow certain conditions.
                 
      * Strings - the project supports the inclusion of strings, a string constant value should be of the form: '<value>' , the program supports conctation of strings via                     the operator + and can find hole that contains a string value and will be inserted as ??? in the program.
@@ -45,20 +46,26 @@ tkinter python library for GUI  by running the command: **pip install tk** in th
                                                 
       
 ##### Inputs and outputs:
+##### initialization inputs:
 * In order to use the program you have to insert the designated example count, and unwinding size for  while loops in the program.
 the proggram has unrolling feature for handeling while loops for the user content, and the program can handle as many examples as inserted.
 * after filling those entries press the "create text button" in order to create text boxes for your PBE.
+
+##### pbe inputs format
 * an empty entry is an entry without examples, the example values should be given by the form of:
-   <variable name> = <variable value>
+  
+   \<variable name\> = \<variable value\>
                   or
-  <variable name> = <variable value> ; <variable2 name> = <variable2 value> ....
+  \<variable name> = \<variable value> ; \<variable2 name> = \<variable2 value> ....
 
 in the PBE the types of vairables should be consistent
 and array/string variables should be declared by an input to at least one empty example 
 <img width="960" alt="image" src="https://github.com/shalev5252/syntesisProject/assets/74376280/c3b1ba25-247c-455c-859e-410122dcc2e0">
 
 false example, the Q condition does not apply -> the program will return a counter example:
-<img width="959" alt="image" src="https://github.com/shalev5252/syntesisProject/assets/74376280/beb38d59-b5bb-4a6c-81ee-cfaf6b284608">
+<img width="959" alt="image" src="https://github.com/shalev5252/syntesisProject/assets/74376280/beb38d59-b5bb-4a6c-81ee-cfaf6b284608">.
+
+*in the verification
 ##### features
 
 
