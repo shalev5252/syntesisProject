@@ -11,6 +11,7 @@ tkinter python library for GUI  by running the command: **pip install tk** in th
 <img width="960" alt="image" src="https://github.com/shalev5252/syntesisProject/assets/74376280/657e412d-494f-447d-a406-04f2294e185c">
 
 #### Language specifications:
+##### features
 * the project supports an expanded hoare language that contains:
      * Strings - the project supports the inclusion of strings, a string constant value should be of the form: '<value>' , the program supports conctation of strings via                     the operator + and can find hole that contains a string value and will be inserted as ??? in the program.
                  String supports the @ operator too , for (a @ 2) the operator will return the character at index 2 from string a.
@@ -39,11 +40,11 @@ tkinter python library for GUI  by running the command: **pip install tk** in th
        <img width="960" alt="image" src="https://github.com/shalev5252/syntesisProject/assets/74376280/03261260-518e-4e64-a7a9-3a77fd015fd0">
                                                 
       
-#### Inputs and outputs:
+##### Inputs and outputs:
 * In order to use the program you have to insert the designated example count, and unwinding size for  while loops in the program.
-the proggram has unrolling feature fir handeling while loops for the user content, and the program can handle as many examples as inserted.
-* after filling those entries press the "create text button" in order to create text boxes for your pbe.
-* an empty entry is an entry without examples, the example values shoul be given by the form of:
+the proggram has unrolling feature for handeling while loops for the user content, and the program can handle as many examples as inserted.
+* after filling those entries press the "create text button" in order to create text boxes for your PBE.
+* an empty entry is an entry without examples, the example values should be given by the form of:
    <variable name> = <variable value>
                   or
   <variable name> = <variable value> ; <variable2 name> = <variable2 value> ....
@@ -54,6 +55,8 @@ and array/string variables should be declared by an input to at least one empty 
 
 false example, the Q condition does not apply -> the program will return a counter example:
 <img width="959" alt="image" src="https://github.com/shalev5252/syntesisProject/assets/74376280/beb38d59-b5bb-4a6c-81ee-cfaf6b284608">
+##### features
+
 
 #### Open the app:
 the aplication ui service is in the file syntApp.py. running it in the cmd line will open the project by using the command:
