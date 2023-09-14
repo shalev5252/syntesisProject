@@ -67,7 +67,8 @@ false example, the Q condition does not apply -> the program will return a count
 
 ##### verification input format
 * the varification inputs are lambda expressions in the z3 format.
-  input format for array select and at str is: d['\<arr name>'][d['\<index>']]
+  input format for array select and at str is: \<lambda expression var>['\<arr name>'][\<lambda expression var>['\<index>']]
+
   
 
 
