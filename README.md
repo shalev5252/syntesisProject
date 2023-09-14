@@ -4,7 +4,12 @@
 z3 solver- can be installed by running the command: **pip install z3-solver** in the terminal
 
 tkinter python library for GUI  by running the command: **pip install tk** in the terminal
-#### Project description:
+
+#### Open the app:
+the aplication ui service is in the file syntApp.py. running it in the cmd line will open the project by using the command:
+python syntApp.py
+
+### Project description:
 
 #### Usage:
 
@@ -68,13 +73,6 @@ false example, the Q condition does not apply -> the program will return a count
 ##### verification input format
 * the varification inputs are lambda expressions in the z3 format.
   input format for array select and at str is: \<lambda expression var>['\<arr name>'][\<lambda expression var>['\<index>']]
-
-  
-
-
-#### Open the app:
-the aplication ui service is in the file syntApp.py. running it in the cmd line will open the project by using the command:
-python syntApp.py
 
 
 #### User Experience flow:
