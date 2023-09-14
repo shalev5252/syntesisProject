@@ -65,8 +65,10 @@ and array/string variables should be declared by an input to at least one empty 
 false example, the Q condition does not apply -> the program will return a counter example:
 <img width="959" alt="image" src="https://github.com/shalev5252/syntesisProject/assets/74376280/beb38d59-b5bb-4a6c-81ee-cfaf6b284608">.
 
-*in the verification
-##### features
+##### verification input format
+* the varification inputs are lambda expressions in the z3 format.
+  input format for array select and at str is: d['\<arr name>'][d['\<index>']]
+  
 
 
 #### Open the app:
